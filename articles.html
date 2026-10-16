@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Articles, Parts &amp; Schedules — The Constitution of India</title>
+  <meta name="description" content="Every article of the Constitution of India, organised by Parts I to XXII, with the Preamble in full and the 12 Schedules. Searchable and filterable.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="tricolour"></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="chakra-dot" aria-hidden="true"></span>
+      <span>Indian Constitution<small>Bharat ka Samvidhan</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">&#9776;</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="making.html">Making</a>
+      <a href="articles.html">Articles</a>
+      <a href="amendments.html">Amendments</a>
+      <a href="cases.html">Cases</a>
+      <a href="faq.html">FAQ</a>
+      <button class="theme-btn" type="button" title="Toggle theme">&#127769;</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+
+      <div class="sec-head">
+        <span class="kicker">The Text</span>
+        <h1>Articles, Parts &amp; Schedules</h1>
+        <p>
+          The Constitution began with 395 articles in 22 parts with 8 schedules. As amended (through the 106th Amendment),
+          it is commonly cited as about 448 articles in 25 parts with 12 schedules. Click any article to read a short
+          explanation; use the search box, filter or 'go to article' to jump around.
+        </p>
+      </div>
+
+      <div class="preamble" id="preamble-card" style="margin-bottom:26px">
+        <h3>The Preamble</h3>
+        <p id="preamble-text" style="font-family:var(--serif);margin-bottom:0">
+          WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR
+          DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of
+          thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them
+          all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation; IN OUR
+          CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS
+          CONSTITUTION.
+        </p>
+      </div>
+
+      <div class="toolbar">
+        <input type="search" id="article-search" placeholder="Search by number, keyword or text — e.g. 'speech', '21A', 'election Commission'">
+        <select id="article-filter" aria-label="Filter by type">
+          <option value="all">All articles</option>
+          <option value="key">Key articles</option>
+          <option value="fr">Fundamental Rights</option>
+          <option value="dpsp">Directive Principles</option>
+          <option value="duty">Fundamental Duties</option>
+          <option value="repealed">Repealed / omitted</option>
+        </select>
+        <span class="jump">
+          <input type="text" id="article-jump" placeholder="Go to no." style="width:110px" aria-label="Go to article number">
+          <button id="article-jump-btn" type="button">Go</button>
+        </span>
+        <span class="count" id="article-count"></span>
+      </div>
+
+      <div class="browser">
+        <aside class="parts-nav" id="parts-nav" aria-label="Jump to a Part"></aside>
+        <div id="parts-main"></div>
+      </div>
+
+      <div class="callout" style="margin-top:34px">
+        <b>How to read this:</b> badge colours — <span class="badge key">Key</span> landmark articles,
+        <span class="badge fr">Fundamental Right</span> Part III, <span class="badge dpsp">DPSP</span> Part IV,
+        <span class="badge duty">Fundamental Duty</span> Part IVA, <span class="badge repealed">Repealed</span> omitted provisions.
+        Summaries are for study; for the authoritative text see the
+        <a href="https://legislative.gov.in/constitution-of-india/" target="_blank" rel="noopener">official source</a>.
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="tricolour"></div>
+  <div class="wrap foot-grid">
+    <div>
+      <h4>Indian Constitution</h4>
+      <p>An educational resource on the Constitution of India — its making, articles, amendments and landmark cases. Built as a static site: plain HTML, CSS and JavaScript.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="making.html">Making of the Constitution</a></li>
+        <li><a href="articles.html">Articles &amp; Parts</a></li>
+        <li><a href="amendments.html">Amendments</a></li>
+        <li><a href="cases.html">Landmark Cases</a></li>
+        <li><a href="faq.html">FAQ &amp; Glossary</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Official sources</h4>
+      <ul>
+        <li><a href="https://legislative.gov.in/constitution-of-india/" target="_blank" rel="noopener">Full text — Ministry of Law &amp; Justice</a></li>
+        <li><a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">India Code</a></li>
+        <li><a href="https://main.sci.gov.in/" target="_blank" rel="noopener">Supreme Court of India</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fineprint">
+    Content is summarised for study and awareness; for authoritative text of the Constitution, judgments and amendments, refer to the official sources linked above.
+  </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">&#8593;</button>
+
+<script src="js/data/articles-data-1.js"></script>
+<script src="js/data/articles-data-2.js"></script>
+<script src="js/data/articles-data-3.js"></script>
+<script src="js/data/articles-data-4.js"></script>
+<script src="js/data/articles-data-5.js"></script>
+<script src="js/site.js"></script>
+<script src="js/articles.js"></script>
+</body>
+</html>

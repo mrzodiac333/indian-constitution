@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Constitutional Amendments 1st&ndash;106th — The Constitution of India</title>
+  <meta name="description" content="All 106 amendments to the Constitution of India, from the First Amendment (1951) to the 106th (women's reservation, 2023) — searchable, with landmark amendments flagged.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="tricolour"></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="chakra-dot" aria-hidden="true"></span>
+      <span>Indian Constitution<small>Bharat ka Samvidhan</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">&#9776;</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="making.html">Making</a>
+      <a href="articles.html">Articles</a>
+      <a href="amendments.html">Amendments</a>
+      <a href="cases.html">Cases</a>
+      <a href="faq.html">FAQ</a>
+      <button class="theme-btn" type="button" title="Toggle theme">&#127769;</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+
+      <div class="sec-head">
+        <span class="kicker">The Living Text</span>
+        <h1>Constitutional Amendments</h1>
+        <p>
+          A constitution that cannot be amended becomes brittle; one that can be amended too easily becomes a
+          plaything of the majority. Article 368 strikes the balance — and these 106 amendments, enacted since 1951,
+          are the record of that balance in action.
+        </p>
+      </div>
+
+      <div class="grid cols-3" style="margin-bottom:26px">
+        <div class="card stat"><span class="num">106</span><span class="lbl">Amendments enacted</span></div>
+        <div class="card stat"><span class="num">1976</span><span class="lbl">The 42nd — the 'mini-Constitution'</span></div>
+        <div class="card stat"><span class="num">2016</span><span class="lbl">The 101st brought GST</span></div>
+      </div>
+
+      <div class="toolbar">
+        <input type="search" id="amend-search" placeholder="Search amendments — e.g. 'basic structure', 'GST', 'reservation', '1962'">
+        <label style="display:flex;align-items:center;gap:7px;font-size:.92rem;white-space:nowrap">
+          <input type="checkbox" id="amend-landmark"> Landmark only
+        </label>
+        <span class="count" id="amend-count"></span>
+      </div>
+
+      <div class="amend-grid" id="amend-grid"></div>
+
+      <div class="callout" style="margin-top:30px">
+        <b>How amendments are made (Article 368):</b> most amendments need a <i>special majority</i> in each House —
+        a majority of the total membership and two-thirds of members present and voting. Amendments touching the
+        federal structure, the judiciary, elections or representation of States also need ratification by at least
+        <i>half the State legislatures</i>. Fewer than 20 of the 106 amendments required State ratification.
+        And since Kesavananda Bharati (1973), no amendment may destroy the Constitution's <b>basic structure</b>.
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="tricolour"></div>
+  <div class="wrap foot-grid">
+    <div>
+      <h4>Indian Constitution</h4>
+      <p>An educational resource on the Constitution of India — its making, articles, amendments and landmark cases. Built as a static site: plain HTML, CSS and JavaScript.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="making.html">Making of the Constitution</a></li>
+        <li><a href="articles.html">Articles &amp; Parts</a></li>
+        <li><a href="amendments.html">Amendments</a></li>
+        <li><a href="cases.html">Landmark Cases</a></li>
+        <li><a href="faq.html">FAQ &amp; Glossary</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Official sources</h4>
+      <ul>
+        <li><a href="https://legislative.gov.in/constitution-of-india/" target="_blank" rel="noopener">Full text — Ministry of Law &amp; Justice</a></li>
+        <li><a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">India Code</a></li>
+        <li><a href="https://main.sci.gov.in/" target="_blank" rel="noopener">Supreme Court of India</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fineprint">
+    Content is summarised for study and awareness; for authoritative text of the Constitution, judgments and amendments, refer to the official sources linked above.
+  </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">&#8593;</button>
+
+<script src="js/data/amendments-data.js"></script>
+<script src="js/site.js"></script>
+<script src="js/amendments.js"></script>
+</body>
+</html>
